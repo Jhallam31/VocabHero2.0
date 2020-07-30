@@ -1,0 +1,16 @@
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\VocabHero3.Models.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\VocabHero3.Models.pdb
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\obj\Debug\VocabHero3.Models.csprojAssemblyReference.cache
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\obj\Debug\VocabHero3.Models.csproj.CoreCompileInputs.cache
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\obj\Debug\VocabHero3.Models.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\obj\Debug\VocabHero3.Models.pdb
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\VocabHero3.Data.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\EntityFramework.dll
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\VocabHero3.Data.pdb
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\VocabHero3.Data.dll.config
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\bin\Debug\EntityFramework.xml
+C:\Users\jenna\OneDrive\Documents\Personal Projects\VocabHero3\VocabHero3.Models\obj\Debug\VocabHero3.Models.csproj.CopyComplete

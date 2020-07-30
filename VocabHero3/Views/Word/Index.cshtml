@@ -1,0 +1,96 @@
+﻿@model IEnumerable<VocabHero3.Models.WordModels.WordListItem>
+
+@using VocabHero3.Models.WordModels
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron jumbotron-fluid" style="
+        padding-top: 190px;
+        height: 400px, -1vw;
+        background-color: #eadbff;">
+
+    <div class="flip-card" style="height:15vw; width: 28vw; min-width:250px; margin-left:36%; margin-top:-120px;">
+        <div class="text-center flip-card-inner">
+            <div class="flip-card-front">
+                <span class="jumbotronTitleContainer">
+                    <h1 class="homeJumbotron" style="font-size: 3.5vw;"><strong>Dictionary</strong></h1>
+                </span>
+            </div>
+            <div class="flip-card-back">
+
+                <h6 class="homeJumboTronBack text-center ">Our collection of words and definitions</h6>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<p>
+    <button type="button" class="btn btn-success rounded " style="width: 250px, 1vw; height: 50px;" data-toggle="modal" data-target="#createWordModal">
+        Add Word
+    </button>
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.WordId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WordName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Definition)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.WordId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WordName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Definition)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.WordId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.WordId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.WordId })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<!--Begin Modal-->
+<div class="modal fade" id="createWordModal" tabindex="-1" role="dialog" aria-labelledby="createWordModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createWordModalTitle">Create a New Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @{
+                    
+                    Html.RenderPartial("Create");
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
